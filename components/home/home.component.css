@@ -1,0 +1,119 @@
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    background: var(--color--interface);
+}
+
+.home__header {
+    box-shadow: var(--shadow--bottom--1);
+    display: flex;
+    z-index: 1;
+    background: var(--color--interface);
+}
+
+.home__header .buttons button:first-child {
+    border-top-left-radius: var(--height--button--2);
+    border-bottom-left-radius: var(--height--button--2);
+}
+
+.home__header .buttons button:last-child {
+    border-top-right-radius: var(--height--button--2);
+    border-bottom-right-radius: var(--height--button--2);
+}
+
+.home__header__navigation {
+    width: calc(100% * 2/12);
+    display: none;
+    justify-content: flex-end;
+    align-items: center;
+    padding: var(--whitespace--1) var(--whitespace--2);
+}
+
+.home__header__actions {
+    width: 100%;
+    padding: var(--whitespace--1) var(--whitespace--2);
+    display: flex;
+}
+
+.home__header__actions__separator {
+    flex: 1;
+}
+
+.home__content {
+    flex: 1;
+    display: flex;
+}
+
+.home__content__container {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.home__navigation {
+    /*width: calc(100% * 2/12);*/
+    width: 100%;
+    background: var(--color--black--1);
+    padding: var(--whitespace--1) 0;
+    position: relative;
+    overflow-y: auto;
+}
+
+.home__releases {
+    /*width: calc(100% * 10/12);*/
+    width: 100%;
+    overflow-y: auto;
+    padding: var(--whitespace--2);
+}
+
+.home__releases__album {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.home__releases__album__item {
+    width: 100%;
+}
+
+@media (min-width: 20rem) {
+    .home__releases__album__item {
+        width: calc(100% * 1/2);
+    }
+}
+
+@media (min-width: 40rem) {
+    .home__releases__album__item {
+        width: calc(100% * 1/3);
+    }
+}
+
+@media (min-width: 60rem) {
+    .home__releases__album__item {
+        width: calc(100% * 1/4);
+    }
+
+    .home__navigation {
+        width: calc(100% * 2/12);
+    }
+
+    .home__releases {
+        width: calc(100% * 10/12);
+    }
+
+    .home__header__navigation {
+        display: flex;
+    }
+
+    .home__header__actions {
+        width: calc(100% * 10/12);
+    }
+}
+
+@media (min-width: 80rem) {
+    .home__releases__album__item {
+        width: calc(100% * 1/5);
+    }
+}

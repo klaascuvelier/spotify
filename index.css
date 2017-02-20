@@ -1,0 +1,23 @@
+@import "./styles/variable.css";
+@import "./styles/reset.css";
+@import "./styles/button.css";
+@import "./styles/icon.css";
+@import "./styles/menu.css";
+@import "./styles/input.css";
+@import "./styles/badge.css";
+
+/* Components */
+@import "./components/home/home.component.css";
+@import "./components/album/album.component.css";
+@import "./components/sub-header/sub-header.component.css";
+@import "./components/player/player.component.css";
+@import "./components/player-album/player-album.component.css";
+@import "./components/player-control/player-control.component.css";
+@import "./components/player-actions/player-actions.component.css";
+@import "./components/progress/progress.component.css";
+@import "./components/search/search.component.css";
+@import "./components/menu-notification/menu-notification.component.css";
+@import "./components/menu-user/menu-user.component.css";
+@import "./components/avatar/avatar.component.css";
+@import "./components/menu-playlist/menu-playlist.component.css";
+

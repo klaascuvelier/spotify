@@ -1,0 +1,12 @@
+.sub-header {
+    padding: var(--whitespace--2);
+}
+
+.sub-header__container {
+    display: flex;
+}
+
+.sub-header__title {
+    font: var(--font--1);
+    font-weight: var(--font-weight--black);
+}

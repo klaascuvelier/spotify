@@ -1,0 +1,38 @@
+.player-actions {
+    display: flex;
+    align-items: center;
+    padding: var(--whitespace--1);
+}
+
+.player-actions > * {
+     margin: 0 var(--whitespace--1);
+}
+
+.button--lyrics {
+    border: 1px solid var(--color--black--3);
+    background: transparent;
+    border-radius: var(--border-radius);
+    color: var(--color--black--3);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-right: calc(var(--whitespace--1) - 5px);
+    font: var(--font--5);
+    font-weight: var(--font-weight--light);
+    width: 5rem;
+}
+
+.button--lyrics:hover {
+    color: var(--color--black--1);
+    background: var(--color--interface);
+    border-color: var(--color--interface);
+    font-weight: var(--font-weight--bold);
+}
+
+.player__volume {
+    display: flex;
+    align-items: center;
+}
+
+.progress--volume {
+    min-width: 8rem;
+}

@@ -1,0 +1,57 @@
+:root {
+    --font-size: 16px;
+
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+    --font-weight--thin: 300;
+    --font-weight--light: 400;
+    --font-weight--normal: 500;
+    --font-weight--medium: 600;
+    --font-weight--bold: 700;
+    --font-weight--black: 800;
+
+    --font--1: var(--font-weight--normal) 1.5rem/2rem var(--font-family);
+    --font--2: var(--font-weight--normal) 1.2rem/1.5rem var(--font-family);
+    --font--3: var(--font-weight--normal) 1rem/1.2rem var(--font-family);
+    --font--4: var(--font-weight--normal) .8rem/1rem var(--font-family);
+    --font--5: var(--font-weight--normal) .6rem/.8rem var(--font-family);
+    --font--body: var(--font-weight--normal) .8rem/1rem var(--font-family);
+
+    --border-radius: 3px;
+
+    --whitespace--1: 0.5rem;
+    --whitespace--2: 1rem;
+    --whitespace--3: 1.5rem;
+
+    --color--brand: hsla(145, 100%, 40%, 1);
+    --color--accent: hsla(0, 90%, 65%, 1);
+    --color--interface: hsla(0, 0%, 100%, 1);
+    --color--border: hsla(225, 0%, 90%, 1);
+    --color--placeholder: hsla(225, 0%, 98%, 1);
+    --color--text: hsla(225, 0%, 15%, 1);
+
+    --color--black--1: hsla(225, 0%, 15%, 1);
+    --color--black--1--alpha--1: hsla(225, 0%, 15%, 0.1);
+    --color--black--1--alpha--2: hsla(225, 0%, 15%, 0.5);
+    --color--black--1--alpha--3: hsla(225, 0%, 15%, 0.8);
+    --color--black--2: hsla(225, 0%, 35%, 1);
+    --color--black--3: hsla(225, 0%, 70%, 1);
+
+    --color--black--alpha--1: hsla(0, 0%, 0%, 0.1);
+    --color--black--alpha--2: hsla(0, 0%, 0%, 0.5);
+    --color--black--alpha--3: hsla(0, 0%, 0%, 0.8);
+
+    --color--white--alpha--1: hsla(0, 100%, 100%, 0.1);
+    --color--white--alpha--2: hsla(0, 100%, 100%, 0.5);
+    --color--white--alpha--3: hsla(0, 100%, 100%, 0.8);
+
+    --shadow--bottom--1: 0 1px 3px var(--color--black--alpha--1);
+    --shadow--bottom--2: 0 3px 8px var(--color--black--alpha--1);
+
+    --transition--duration: .2s;
+    --transition--function: ease-out;
+
+    --opacity--1: .2;
+    --opacity--2: .5;
+    --opacity--3: .8;
+}

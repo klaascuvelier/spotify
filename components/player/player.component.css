@@ -1,0 +1,82 @@
+.player {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    background: var(--color--black--1);
+    width: 100%;
+    padding: var(--whitespace--1);
+    user-select: none;
+    position: relative;
+    background-size: cover;
+    /*background-image: url('https://cdn.suwalls.com/wallpapers/music/harder-better-faster-stronger-daft-punk-42365-3840x2160.jpg');*/
+    background-position: center center;
+}
+
+.player__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color--black--1--alpha--3);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: 0;
+    border-top: 1px solid var(--color--black--alpha--1);
+}
+
+.player__album {
+    z-index: 1;
+    display: none;
+}
+
+.player__control {
+    width: 100%;
+    padding: var(--whitespace--1);
+    color: var(--color--black--3);
+    z-index: 1;
+}
+
+.player__control__actions {
+    display: flex;
+    justify-content: space-around;
+    padding: var(--whitespace--1);
+}
+
+.player__time {
+    display: flex;
+    align-items: center;
+}
+
+.player__time__elapsed-time,
+.player__time__progress,
+.player__time__total-time {
+    padding: var(--whitespace--1);
+    font: var(--font--5);
+    font-weight: var(--font-weight--thin);
+}
+
+.player__time__progress {
+    flex: 1;
+}
+
+.player__actions {
+    justify-content: flex-end;
+    z-index: 1;
+    display: none;
+}
+
+@media (min-width: 60rem) {
+    .player__album {
+        width: calc(100% * 3.5/12);
+        display: block;
+    }
+
+    .player__control {
+        width: calc(100% * 5/12);
+    }
+
+    .player__actions {
+        width: calc(100% * 3.5/12);
+        display: flex;
+    }
+}

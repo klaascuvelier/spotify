@@ -1,0 +1,25 @@
+.button--user-menu {
+    background: transparent;
+    color: var(--color--black--3);
+    border-color: transparent;
+}
+
+.button--user-menu .username {
+    display: none;
+    margin-right: var(--whitespace--1);
+    font-weight: var(--font-weight--light);
+}
+
+.button--user-menu:hover {
+    color: var(--color--brand);
+}
+
+.button--user-menu:hover .avatar {
+    border-color: var(--color--brand);
+}
+
+@media (min-width: 60rem) {
+    .button--user-menu .username {
+        display: block;
+    }
+}

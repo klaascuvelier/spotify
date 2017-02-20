@@ -1,0 +1,21 @@
+<div class="player">
+    <span class="player__album">
+        ${require('../player-album/player-album.component.html')}
+    </span>
+    <span class="player__control">
+        <div class="player__control__actions">
+            ${require('../player-control/player-control.component.html')}
+        </div>
+        <div class="player__time">
+            <span class="player__time__elapsed-time">1:58</span>
+            <span class="player__time__progress">
+                ${require('../progress/progress.component.html')}
+            </span>
+            <span class="player__time__total-time">3:50</span>
+        </div>
+    </span>
+    <span class="player__actions">
+        ${require('../player-actions/player-actions.component.html')}
+    </span>
+    <div class="player__overlay"></div>
+</div>

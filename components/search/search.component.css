@@ -1,0 +1,15 @@
+.input--search-header {
+    width: 15rem;
+    color: var(--color--black--3);
+}
+
+.input--search-header .input__actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
+}
+
+.input--search-header button:hover {
+    color: var(--color--black--1);
+}

@@ -1,0 +1,20 @@
+.badge {
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 1rem;
+    font: var(--font--5);
+    line-height: 1rem;
+    text-align: center;
+}
+
+.badge--top-right {
+    top: -0.2rem;
+    right: -0.6rem;
+}
+
+.badge--brand {
+    background: var(--color--brand);
+    color: var(--color--interface);
+    border: 2px solid var(--color--interface);
+}

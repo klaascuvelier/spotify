@@ -1,0 +1,67 @@
+:root {
+    --height--menu__item: 2rem;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: var(--whitespace--3) 0;
+    width: 100%;
+    user-select: none;
+}
+
+.menu__item {
+    height: var(--height--menu__item);
+    display: flex;
+    align-items: center;
+    font-weight: var(--font-weight--thin);
+}
+
+.menu__item__container {
+    width: 100%;
+    height: 100%;
+    padding: 0 var(--whitespace--2);
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu__item:hover:not(.menu__item--title) .menu__item__container,
+.menu__item.active .menu__item__container {
+    border-left-color: var(--color--brand);
+}
+
+.menu__item--title,
+.menu__item--title strong {
+    text-transform: uppercase;
+    font: var(--font--5);
+    font-weight: var(--font-weight--medium);
+    letter-spacing: 1px;
+    user-select: none;
+    cursor: default;
+    justify-content: space-between;
+}
+
+.menu__item--title .menu__item__container {
+    justify-content: space-between;
+}
+
+.menu__item--left-icon .icon {
+    margin-right: var(--whitespace--2);
+}
+
+.menu--black {
+    color: var(--color--black--3);
+}
+
+.menu--black .menu__item--title {
+    color: var(--color--black--2);
+}
+
+.menu--black .menu__item:hover:not(.menu__item--title) .menu__item__container,
+.menu--black .menu__item.active .menu__item__container {
+    background: var(--color--white--alpha--1);
+    color: var(--color--interface);
+}

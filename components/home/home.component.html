@@ -1,0 +1,141 @@
+<div class="home">
+    <header class="home__header">
+        <div class="home__header__navigation">
+            <nav class="buttons">
+                <button class="button--2 button--interface">
+                    <div class="button__container">
+                        <span class="icon icon--2">${require('../../assets/left.svg')}</span>
+                    </div>
+                </button>
+                <button class="button--2 button--interface">
+                    <div class="button__container">
+                        <span class="icon icon--2">${require('../../assets/right.svg')}</span>
+                    </div>
+                </button>
+            </nav>
+        </div>
+        <div class="home__header__actions">
+            ${require('../search/search.component.html')}
+            <div class="home__header__actions__separator"></div>
+            ${require('../menu-user/menu-user.component.html')}
+            ${require('../menu-notification/menu-notification.component.html')}
+        </div>
+    </header>
+    <div class="home__content">
+        <div class="home__content__container">
+            <section class="home__navigation">
+                <ul class="menu menu--black">
+                    <li class="menu__item menu__item--title">
+                        <div class="menu__item__container">
+                            <strong>Discover</strong>
+                        </div>
+                    </li>
+                    <li class="menu__item  menu__item--left-icon active">
+                        <a class="menu__item__container">
+                            <span class="icon icon--2">
+                                ${require('../../assets/new.svg')}
+                            </span>
+                            <span>New Releases</span>
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item--left-icon">
+                        <a class="menu__item__container">
+                            <span class="icon icon--2">
+                                ${require('../../assets/topchart.svg')}
+                            </span>
+                            <span>Top charts</span>
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item--left-icon">
+                        <a class="menu__item__container">
+                            <span class="icon icon--2">
+                                ${require('../../assets/radio.svg')}
+                            </span>
+                            <span>Radio stations</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="menu menu--black">
+                    <li class="menu__item menu__item--title">
+                        <div class="menu__item__container">
+                            <strong>Your collection</strong>
+                        </div>
+                    </li>
+                    <li class="menu__item  menu__item--left-icon">
+                        <a class="menu__item__container">
+                            <span class="icon icon--2">
+                                ${require('../../assets/artist.svg')}
+                            </span>
+                            <span>Artists</span>
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item--left-icon">
+                        <a class="menu__item__container">
+                            <span class="icon icon--2">
+                                ${require('../../assets/album.svg')}
+                            </span>
+                            <span>Albums</span>
+                        </a>
+                    </li>
+                    <li class="menu__item menu__item--left-icon">
+                        <a class="menu__item__container">
+                            <span class="icon icon--2">
+                                ${require('../../assets/song.svg')}
+                            </span>
+                            <span>Songs</span>
+                        </a>
+                    </li>
+                </ul>
+
+                ${require('../menu-playlist/menu-playlist.component.html')}
+            </section>
+            <section class="home__releases">
+                <div class="home__releases__header">
+                    ${require('../sub-header/sub-header.component.html')}
+                </div>
+                <ul class="home__releases__album">
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                    <li class="home__releases__album__item">
+                        ${require('../album/album.component.html')}
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <footer class="home__footer">
+        ${require('../player/player.component.html')}
+    </footer>
+</div>

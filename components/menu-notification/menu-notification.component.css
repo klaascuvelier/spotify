@@ -1,0 +1,11 @@
+.button--notification {
+    border-color: transparent;
+}
+
+.button--notification .button__container {
+    position: relative;
+}
+
+.button--notification.active {
+    color: var(--color--brand);
+}

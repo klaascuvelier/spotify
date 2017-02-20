@@ -28,8 +28,8 @@
     border-radius: var(--border-radius);
     transition: all var(--transition--duration) var(--transition--function);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* TODO: 1. Flex magic */
+    /* TODO: 2. Flex magic */
 }
 
 .icon--album {

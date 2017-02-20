@@ -1,6 +1,6 @@
 .player-control {
     display: flex;
-    align-items: center;
+    /* TODO: 1. Flex magic */
 }
 
 .button--control {

@@ -1,14 +1,13 @@
 .player {
     display: flex;
-    align-items: center;
-    flex-flow: row wrap;
+    /* TODO: 1. Flex magic */
+    /* TODO: 2. Flex magic */
     background: var(--color--black--1);
     width: 100%;
     padding: var(--whitespace--1);
     user-select: none;
     position: relative;
     background-size: cover;
-    /*background-image: url('https://cdn.suwalls.com/wallpapers/music/harder-better-faster-stronger-daft-punk-42365-3840x2160.jpg');*/
     background-position: center center;
 }
 
@@ -44,7 +43,7 @@
 
 .player__time {
     display: flex;
-    align-items: center;
+    /* TODO: 1. Flex magic */
 }
 
 .player__time__elapsed-time,
@@ -56,11 +55,11 @@
 }
 
 .player__time__progress {
-    flex: 1;
+    /* TODO: 1. Flex magic */
 }
 
 .player__actions {
-    justify-content: flex-end;
+    /* TODO: 1. Flex magic */
     z-index: 1;
     display: none;
 }

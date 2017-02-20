@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    flex-flow: column nowrap;
+    /* TODO: 1. Flex magic */
     background: var(--color--interface);
 }
 
@@ -26,8 +26,8 @@
 .home__header__navigation {
     width: calc(100% * 2/12);
     display: none;
-    justify-content: flex-end;
-    align-items: center;
+    /* TODO: 1. Flex magic */
+    /* TODO: 2. Flex magic */
     padding: var(--whitespace--1) var(--whitespace--2);
 }
 
@@ -48,13 +48,12 @@
 
 .home__content__container {
     display: flex;
-    flex-flow: row wrap;
+    /* TODO: 1. Flex magic */
     flex: 1;
     overflow-y: auto;
 }
 
 .home__navigation {
-    /*width: calc(100% * 2/12);*/
     width: 100%;
     background: var(--color--black--1);
     padding: var(--whitespace--1) 0;
@@ -63,7 +62,6 @@
 }
 
 .home__releases {
-    /*width: calc(100% * 10/12);*/
     width: 100%;
     overflow-y: auto;
     padding: var(--whitespace--2);
@@ -71,7 +69,7 @@
 
 .home__releases__album {
     display: flex;
-    flex-flow: row wrap;
+    /* TODO: 1. Flex magic */
 }
 
 .home__releases__album__item {

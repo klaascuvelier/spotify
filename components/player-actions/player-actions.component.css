@@ -1,6 +1,6 @@
 .player-actions {
     display: flex;
-    align-items: center;
+    /* TODO: 1. Flex magic */
     padding: var(--whitespace--1);
 }
 
@@ -30,7 +30,7 @@
 
 .player__volume {
     display: flex;
-    align-items: center;
+    /* TODO: 1. Flex magic */
 }
 
 .progress--volume {

@@ -5,8 +5,8 @@
 
 .input--search-header .input__actions {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* TODO: 1. Flex magic */
+    /* TODO: 2. Flex magic */
     color: inherit;
 }
 
